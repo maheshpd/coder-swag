@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B503CCCE233D3D93004F3660 /* ProductDell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503CCCD233D3D93004F3660 /* ProductDell.swift */; };
 		B569F413233A91A6006B6AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F412233A91A6006B6AD9 /* AppDelegate.swift */; };
 		B569F415233A91A6006B6AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F414233A91A6006B6AD9 /* SceneDelegate.swift */; };
 		B569F417233A91A6006B6AD9 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F416233A91A6006B6AD9 /* CategoriesVC.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B503CCCD233D3D93004F3660 /* ProductDell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDell.swift; sourceTree = "<group>"; };
 		B569F40F233A91A6006B6AD9 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B569F412233A91A6006B6AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B569F414233A91A6006B6AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B569F429233A9623006B6AD9 /* CategoryCell.swift */,
+				B503CCCD233D3D93004F3660 /* ProductDell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				B569F42C233A99BA006B6AD9 /* Category.swift in Sources */,
 				B569F413233A91A6006B6AD9 /* AppDelegate.swift in Sources */,
 				B569F42F233A9B47006B6AD9 /* DataService.swift in Sources */,
+				B503CCCE233D3D93004F3660 /* ProductDell.swift in Sources */,
 				B569F415233A91A6006B6AD9 /* SceneDelegate.swift in Sources */,
 				B569F42A233A9623006B6AD9 /* CategoryCell.swift in Sources */,
 			);
