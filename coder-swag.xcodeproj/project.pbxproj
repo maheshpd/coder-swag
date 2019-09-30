@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B503CCCE233D3D93004F3660 /* ProductDell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503CCCD233D3D93004F3660 /* ProductDell.swift */; };
 		B503CCD0233D3EAD004F3660 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B503CCCF233D3EAD004F3660 /* Product.swift */; };
+		B536517E234264EB00DEB55E /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B536517D234264EA00DEB55E /* ProductVC.swift */; };
 		B569F413233A91A6006B6AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F412233A91A6006B6AD9 /* AppDelegate.swift */; };
 		B569F415233A91A6006B6AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F414233A91A6006B6AD9 /* SceneDelegate.swift */; };
 		B569F417233A91A6006B6AD9 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569F416233A91A6006B6AD9 /* CategoriesVC.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		B503CCCD233D3D93004F3660 /* ProductDell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDell.swift; sourceTree = "<group>"; };
 		B503CCCF233D3EAD004F3660 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B536517D234264EA00DEB55E /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 		B569F40F233A91A6006B6AD9 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B569F412233A91A6006B6AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B569F414233A91A6006B6AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +74,6 @@
 				B569F426233A9591006B6AD9 /* Controller */,
 				B569F412233A91A6006B6AD9 /* AppDelegate.swift */,
 				B569F414233A91A6006B6AD9 /* SceneDelegate.swift */,
-				B569F416233A91A6006B6AD9 /* CategoriesVC.swift */,
 				B569F418233A91A6006B6AD9 /* Main.storyboard */,
 				B569F41B233A91AC006B6AD9 /* Assets.xcassets */,
 				B569F41D233A91AC006B6AD9 /* LaunchScreen.storyboard */,
@@ -84,6 +85,8 @@
 		B569F426233A9591006B6AD9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B536517D234264EA00DEB55E /* ProductVC.swift */,
+				B569F416233A91A6006B6AD9 /* CategoriesVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				B569F413233A91A6006B6AD9 /* AppDelegate.swift in Sources */,
 				B569F42F233A9B47006B6AD9 /* DataService.swift in Sources */,
 				B503CCCE233D3D93004F3660 /* ProductDell.swift in Sources */,
+				B536517E234264EB00DEB55E /* ProductVC.swift in Sources */,
 				B569F415233A91A6006B6AD9 /* SceneDelegate.swift in Sources */,
 				B569F42A233A9623006B6AD9 /* CategoryCell.swift in Sources */,
 			);
